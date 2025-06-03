@@ -1,0 +1,411 @@
+@font-face {
+    font-family: Oswald-VariableFont;
+    src: url(Fontovi/Oswald-VariableFont_wght.ttf);
+
+}
+
+@media screen and (max-width:600px){
+    aside,section,article{
+        width: 100%;
+    }
+}
+@keyframes rotacija{
+    from{transform:rotateY(0deg) scale(110%)}
+    to{transform:rotateY(360deg)  scale(155%)}
+    
+}
+
+body{
+    background-image: url(Slike/Pozadina.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+header{
+    text-align: center;
+    font-family: Oswald-VariableFont;
+    background-color:rgba(242, 188, 89, 0.844);
+    display:block;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(69, 66, 66);
+    border-width: 10px;
+    border-bottom-width: 5px;
+
+}
+#header{
+    text-align: center;
+    font-style: bold;
+    font-size: 50px;
+    color:white;
+    padding: 20px;
+    -webkit-text-stroke: 2px rgb(69, 66, 66);
+}
+#header::selection{
+    color: white;
+    background-color: orange;
+}
+#lisica{
+    float: left;
+    display: flex;
+    height: 200px;
+    width: 50px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: orange;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 35px;
+    border-style: solid;
+    border-width: 5px;
+    border-top-width: 0px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+    border: solid;
+    padding: 2px;
+}
+.navbar a:hover{
+    background-color: rgba(245, 245, 28, 0.842);
+    color:black;
+    border-style: dashed;
+}
+.navbar::selection{
+    background-color: orange;
+}
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    font-family: Oswald-VariableFont;
+    background-color:rgba(242, 188, 89, 0.844);
+    display:block;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(69, 66, 66);
+    border-width: 10px;
+    border-bottom-width: 5px;
+
+}
+footer::selection{
+    background-color:orange;
+    color:white;
+}
+b{
+    color: orange;
+}
+main{
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(69, 66, 66);
+    border-width: 5px;
+    font-family: Oswald-VariableFont;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 70px;
+}
+main::selection{
+    background-color: orange;
+}
+#naslov1{
+    color: orange;
+    text-align: center;
+    font-size: 350%;
+    font-family: Oswald-VariableFont;
+    -webkit-text-stroke: 2px rgb(69, 66, 66);
+
+}
+
+#naslov1:hover{
+    text-shadow: 2px 2px 15px orange;
+}
+
+.tekst{
+    font-size: 30px;
+
+}
+.poledjina{
+    margin: 10px;
+    padding: 5px;
+}
+
+#grb{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color:orange;
+}
+p a:visited{
+    color: rgb(205, 136, 9);
+}
+p a:active{
+    color:yellow;
+}
+#igrice{
+    list-style-type:none;
+    font-size: 20px;
+}
+#igrice #mc::before{
+    content:url(Slike/Minecraft.jpg) " ";
+    zoom:4.5%;
+}
+#igrice #cod::before{
+    content: url(Slike/CoD.svg);
+    zoom: 2.5%;
+}
+#igrice #cs16::before{
+    content:url(Slike/counter-strike-1.6.png);
+    zoom: 4.5%;
+}
+#igrice #aoe::before{
+    content:url(Slike/AoE.jpeg);
+    zoom: 10.5%;
+}
+#igrice #lol::before{
+    content:url(Slike/LoL.jpeg);
+    zoom:9.5%;
+}
+.ikonice_igrice{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 15%;
+    
+}
+#ikonica_mc{
+    width:200px;
+    height: 200px;
+}
+
+#ikonica_cs2{
+    width: 200px;
+    height: 200px;
+}
+.naslov{
+    text-align: center;
+    font-size: 330%;
+    padding-bottom:10%;
+}
+
+#ikonica_mc:hover{
+    animation-name: rotacija;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#ikonica_cs2:hover{
+    animation-name: rotacija;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+#MCT{
+    padding-right: 70px;
+}
+#CST{
+    padding-left: 50px;
+}
+#CS2naslov{
+    display:block;
+    position: relative;
+    left: 30%;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+#MCnaslov{
+    display:block;
+    position:relative;
+    left:25%;
+}
+.blokovi{
+    padding-top: 150px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 140%;
+    border-bottom:20px solid rgb(69, 66, 66);
+}
+#vuk091h3{
+    color:orange;
+}
+#vuk091h3::after{
+    content: " Rifler";
+    color:blue;
+}
+.listeb{
+    list-style-type: none;
+}
+#v091p::after{
+    content:url(Slike/M4A1-S.jpeg) ;
+    zoom: 20%;
+}
+#v091pi::after{
+    content:url(Slike/USP.jpeg);
+    zoom: 20%;
+}
+#mandah3{
+    color:orange;
+}
+#mandah3::after{
+    content:' Playmaker';
+    color: blue;
+}
+#prviblok{
+    border-top: 20px solid rgb(69, 66, 66);
+}
+#mandap::after{
+    content: url(Slike/AWP.jpeg);
+    zoom: 20%;
+}
+#mandapi::after{
+    content: url(Slike/CZ75-Auto.jpeg);
+    zoom:20%;
+}
+#acph3{
+    color: orange;
+}
+#acph3::after{
+    content:' Anchor';
+    color:blue;
+}
+#acp44p::after{
+    content: url(Slike/M4A1-S.jpeg);
+    zoom:20%;
+}
+#acp44pi::after{
+    content:url(Slike/Five-SeveN.jpeg);
+    zoom:20%;
+}
+#veljeeh3{
+    color: orange;
+}
+#veljeeh3::after{
+    content:' Rifler';
+    color: blue;
+}
+#vljp::after{
+    content: url(Slike/AK-47.jpeg);
+    zoom:20%;
+}
+#vljpi::after{
+    content:url(Slike/Desert\ Eagle.jpeg);
+    zoom:20%;
+}
+#davidh3{
+    color:orange;
+}
+#davidh3::after{
+    content:' Secondary sniper';
+    color: blue;
+}
+#dvdp::after{
+    content:url(Slike/SSG\ 08.jpeg);
+    zoom:20%;
+}
+#dvdpi::after{
+    content:url(Slike/Desert\ Eagle.jpeg);
+    zoom:20%;
+}
+#elo091::after{
+    content:' 12 000 ';
+    color: rgb(64, 64, 184);
+    font-style:italic;
+    border: 2px solid black;
+    border-left: 20px solid rgb(64, 64, 184);
+    background-color:rgb(11, 31, 79);
+    padding-right:5px;
+}
+#elomanda::after{
+    content:' 10 000 ';
+    color: rgb(64, 64, 184);
+    font-style:italic;
+    border: 2px solid black;
+    border-left: 20px solid rgb(64, 64, 184);
+    background-color:rgb(11, 31, 79);
+    padding-right:5px;
+}
+#elo44::after{
+    content:' 7 000 ';
+    color: rgb(109, 201, 206);
+    font-style:italic;
+    border: 2px solid black;
+    border-left: 20px solid rgb(109, 201, 206);
+    background-color:rgb(90, 97, 99);
+    padding-right:5px;
+}
+#elovee::after{
+    content:' 5 000 ';
+    color: rgb(109, 201, 206);
+    font-style:italic;
+    border: 2px solid black;
+    border-left: 20px solid rgb(109, 201, 206);
+    background-color:rgb(90, 97, 99);
+    padding-right:5px;
+}
+#elodvd::after{
+    content:' 4 000 ';
+    color: rgb(183, 183, 193);
+    font-style:italic;
+    border: 2px solid black;
+    border-left: 20px solid rgb(183, 183, 193);
+    background-color:rgb(141, 146, 157);
+    padding-right:5px;
+}
+.mc_h3{
+    color:green;
+}
+.mcafter::after{
+    content: url(Slike/Diamond_Sword.webp);
+    zoom: 5%;
+}
+#mcafterb::after{
+    content: url(Slike/bow.png);
+    zoom: 20%;
+}
+.blokoviv2{
+    padding-top: 100px;
+    text-align: center;
+    position:relative;
+    left: 0.15%;
+    font-size: 140%;
+    border-bottom:20px solid rgb(69, 66, 66);
+}
+#naslovE{
+    color: orange;
+    font-style:italic;
+    font-size: 320%;
+    position:relative;
+    left: 32.5%;
+    -webkit-text-stroke: 2px rgb(69, 66, 66);
+    padding-bottom: 20px;
+}
+#blokoviv2top{
+    border-top:20px solid rgb(69, 66, 66);
+}
+.okvirslike{
+    border:2px solid rgb(69, 66, 66);
+    height: 300px;
+    width: 200px;
+}
